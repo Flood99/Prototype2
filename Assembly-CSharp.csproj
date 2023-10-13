@@ -38,8 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets/Course Library/Scripts/DestroyOutOfBounds.cs" />
      <Compile Include="Assets/Course Library/Scripts/MoveForward.cs" />
-     <Compile Include="Assets/Course Library/Scripts/PlayerController.cs" />
      <Compile Include="Assets/Course Library/Scripts/SpawnManager.cs" />
+     <Compile Include="Assets/Course Library/Scripts/PlayerController.cs" />
+     <Compile Include="Assets/Course Library/Scripts/DetectCollisons.cs" />
      <None Include="Assets/Course Library/_Source_Files/_LICENSE.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
