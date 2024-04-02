@@ -56,7 +56,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
 
-        InvokeRepeating("SpawnRandomAnimal",3.0f,3.0f);
+        InvokeRepeating("SpawnRandomAnimal",3.0f,1.0f);
         score = 0;
         scoreText.text = "Score: " + score;
     }

@@ -27,5 +27,9 @@ public class LivesSystem : MonoBehaviour
     void UpdateLife(int ChangeInLife)
     {
         life += ChangeInLife;
+        if(life <= 0)
+        {
+            Debug.Log("You Lose");
+        }
     }
 }

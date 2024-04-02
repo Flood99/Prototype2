@@ -479,10 +479,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  xRange: -10
-  zRange: -9
+  xRange: 13
+  zRange: 8
   projectilePrefab: {fileID: 1781106271682638667, guid: 04e2117951aa04d6383bd7633575d0d8, type: 3}
-  LivesText: {fileID: 0}
+--- !u!114 &715847607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715847603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb3d61429477480baf4938964f0d0ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  livesText: {fileID: 1769553984}
+--- !u!65 &715847608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715847603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!850595691 &729213487
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -669,7 +694,7 @@ MonoBehaviour:
   - {fileID: 4002410450683838052, guid: 3f1317a5be5474d8799c05c48161bd7e, type: 3}
   spawnRangeX: 13
   spawnRangeZ: 10
-  spawnPosZ: 20
+  spawnPosZ: 15
   spawnPosX: 20
   scoreText: {fileID: 1591041070}
 --- !u!4 &1131134570
