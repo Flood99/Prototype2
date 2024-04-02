@@ -1278,7 +1278,7 @@ GameObject:
   - component: {fileID: 6470826090288757715}
   m_Layer: 0
   m_Name: Animal_Chicken_White 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1336,7 +1336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdcac9813f574b0689f6259ee4d720f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 10
   speed: 40
+  spawnManager: {fileID: 0}
 --- !u!114 &6470826090288757715
 MonoBehaviour:
   m_ObjectHideFlags: 0
